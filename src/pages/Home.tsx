@@ -299,7 +299,9 @@ export default function Home() {
                 </div>
             </section>
         </section>
-        <ContactForm />
+        <section id="contact">
+            <ContactForm />
+        </section>
         <Footer show={true}/>   
         </>
     )
